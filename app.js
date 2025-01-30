@@ -46,3 +46,20 @@ function atualizarLista(){
 }
 
 //Implementar uma função para sortear os amigos
+function sortearAmigo(){
+    //verificar se há amigos disponíveis para serem sorteados
+    if(amigos.length == 0) //verifica se o array de "amigos" está vazio.
+     alert("Não há amigos disponíveis para sortear. Adicione pelo menos um.")
+     return;
+
+    //Gerar um índice aleatório
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length); //Gera um numero aleatorio entre 0 e
+
+    // Obter o número sorteado
+    const amigoSorteado = amigos[indiceAleatorio]; //Usa o índice aleatório para obter um nome.
+
+    //Mostra o resultado na página HTML
+    const resultado = `Amigo sorteado: <strong>${amigoSorteado}</strong>`;
+
+
+}
