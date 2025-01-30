@@ -1,7 +1,7 @@
 //Crie um array para armazenar os nomes
 let listaAmigos = [];
 
-//Implementa uma função para agregar amigos
+// Implementa uma função para agregar amigos
 function adicionarAmigos(){
     const inputAmigo = document.getElementById('amigo');
     const nomeAmigo = inputAmigo.ariaValueMax.trim();
@@ -31,6 +31,18 @@ function adicionarAmigos(){
 }
 
 //Implementa uma função para atualizar a lista de amigos
+function atualizarLista(){
+    const listaAmigos = document.getElementById('listaAmigos');
 
+    //Limpar o conteudo atual da lsta
+    listaAmigos.innerHTML = ""; //Limpar conteúdos dentro da lista
 
-//Implementa uma função para sortear os amigos
+    //Loop for para a array
+    for(let i = 0; i <amigos.length; i++){
+        const li = document.createrElement('li');
+        li.textContent = amigos[i];
+        listaAmigos.appendChild(li);
+    }
+}
+
+//Implementar uma função para sortear os amigos
