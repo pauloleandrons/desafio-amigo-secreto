@@ -18,7 +18,7 @@ Para aqueles que desejam sortear um amigo secreto e não sabe por onde começar,
 
 ## Como Utilizar
 
-
+![image alt](https://github.com/pauloleandrons/desafio-amigo-secreto/blob/6047bf977055be699ffcdeb57a677cd468b4c1d5/assets/video-do-desafio-secreto%20alura.gif)
 
 ## Desenvolvimento
  - Versão desktop
