@@ -13,7 +13,7 @@ Para aqueles que desejam sortear um amigo secreto e não sabe por onde começar,
 
 ## Como Utilizar
 
-<video controls src="video do desafio secreto.mp4" title="Title"></video>
+![image alt]([image_url](https://github.com/pauloleandrons/desafio-amigo-secreto/blob/584031730252340aa4c13f9f961081cfb32d7072/Alura%20desafio%20amigo%20secreto.gif))
 
 ## Desenvolvimento
  - Versão desktop
