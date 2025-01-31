@@ -13,7 +13,7 @@ Para aqueles que desejam sortear um amigo secreto e não sabe por onde começar,
 
 ## Como Utilizar
 
-<video controls src="video do desafio secreto.mp4" title="Title"></video>
+
 
 ## Desenvolvimento
  - Versão desktop
