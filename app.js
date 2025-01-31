@@ -1,6 +1,8 @@
+//Crie um array para armazenar os nomes
 let amigos = [];
 let mensagem = document.querySelector('p')
 
+//Implementa uma função para agregar amigos
 function adicionarAmigo() {
     const input = document.querySelector('input');
     let nomeAmigo = input.value.trim() // limpa espaços
@@ -16,6 +18,8 @@ function adicionarAmigo() {
 
     console.log(amigos)
 }
+
+//Implementa uma função para atualizar a lista de amigos
 function renderizarLista() {
     const lista = document.querySelector('#resultado')
     lista.innerHTML = ""
@@ -27,6 +31,8 @@ function renderizarLista() {
         lista.appendChild(novoAmigo)
     }
 }
+
+//Implementa uma função para sortear os amigos
 function sortearAmigo() {
     if (amigos.length == '') {
         mensagem.textContent = 'Digite o nome dos seus amigos';
