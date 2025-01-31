@@ -6,6 +6,11 @@
 ## Descrição:
 Para aqueles que desejam sortear um amigo secreto e não sabe por onde começar, esse sistema permitirá que seja feito isso de forma rápida e objetiva. Por meio dele você poderá criar rapidamente uma lista de amigos, sortear aleatoriamente todos eles e descubrir quem será o felizardo a receber o seu presente. 
 
+## Objetivo
+- Ajudar as pessoas a encontrarem soluções rápidas em assuntos do dia a dia
+- Evoluir como programador
+- Mostrar minha evolução
+
 ## Funcionalidades
 - Adicionar nomes de amigos
 - Sortear aleatoriamente um nome da lista
@@ -25,3 +30,5 @@ Para aqueles que desejam sortear um amigo secreto e não sabe por onde começar,
  - HTML
  - CSS
  - JavaScript
+
+
