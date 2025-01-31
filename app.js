@@ -44,6 +44,8 @@ function sortearAmigo() {
     console.log(amigos)
 }
 
+// ADICIONE MAIS CARACTERISTICAS AO JOGO E SE DIVIRTA
+
 
 
 
