@@ -10,7 +10,7 @@ function adicionarAmigo() {
         mensagem.textContent = ''
     }
     else {
-        mensagem.textContent = 'Por favor, digite um nome.';
+        mensagem.textContent = 'Por favor, insira um nome.';
     }
     input.value = '';
 
@@ -29,11 +29,11 @@ function renderizarLista() {
 }
 function sortearAmigo() {
     if (amigos.length == '') {
-        mensagem.textContent = 'Digite o nome dos seus amigos!';
+        mensagem.textContent = 'Digite o nome dos seus amigos';
     } else {
         let nomeSorteado = Math.floor(Math.random() * amigos.length)
         let amigoSorteado = amigos[nomeSorteado]
-        document.querySelector('#resultado').textContent = `Parabéns! O seu amigo secreto é ${amigoSorteado}`
+        document.querySelector('#resultado').textContent = `O amigo secreto sorteado é: ${amigoSorteado}`
     }
     console.log(amigos)
 }
